@@ -1,0 +1,55 @@
+Why are functions advantageous to have in your programs?
+
+- Functions help in code modularity, which means that the entire code is divided into separate blocks, each of which is self-contained and performs a different task
+
+When does the code in a function run: when it&#39;s specified or when it&#39;s called?
+
+- When a function is "called" the program then the current section of code and begins to execute the first line inside the function
+
+What statement creates a function?
+
+- def
+
+What is the difference between a function and a function call?
+
+- A function is a block of code that does a particular operation and returns a result.A function call is an expression that passes control and arguments
+
+How many global scopes are there in a Python program? How many local scopes?
+
+- There's only one global Python scope per program execution. On the other hand you can have minimim 2 and maximum 4 lacal scopes
+
+What happens to variables in a local scope when the function call returns?
+
+- The local variables are destroyed
+
+What is the concept of a return value? Is it possible to have a return value in an expression?
+
+- A return is a value that a function returns to the calling script or function when it completes its task.
+
+If a function does not have a return statement, what is the return value of a call to that function?
+
+- If no return statement appears in a function definition, control automatically returns to the calling function after the last statement of the called function is executed.
+
+How do you make a function variable refer to the global variable?
+
+- Use the global keyword
+
+What is the data type of None?
+
+- The None keyword is used to define a null value, or no value at all.
+
+What does the sentence import are all your pets name deric do?
+
+- imports a module named areallyourpetsnamederic.
+
+If you had a bacon() feature in a spam module, what would you call it after importing spam?
+
+- This function can be called with spam.bacon().
+
+What can you do to save a programme from crashing if it encounters an error?
+
+- By adding try and except block
+
+What is the purpose of the try clause? What is the purpose of the except clause?
+
+- The try block lets you test a block of code for errors. The except block lets you handle the error.
