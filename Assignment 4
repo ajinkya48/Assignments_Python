@@ -1,0 +1,71 @@
+What exactly is []?
+
+- It's an empty list
+
+In a list of values stored in a variable called spam, how would you assign the value &#39;hello&#39; as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+
+- spam[2] = 'hello'
+
+Let&#39;s pretend the spam includes the list [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;] for the next three queries.
+
+What is the value of spam[int(int(&#39;3&#39; * 2) / 11)]?
+
+- 'd'
+
+What is the value of spam[-1]?
+
+- 'd'
+
+What is the value of spam[:2]?
+
+- ['a','b','c']
+
+Let&#39;s pretend bacon has the list [3.14, &#39;cat,&#39; 11, &#39;cat,&#39; True] for the next three questions.
+
+What is the value of bacon.index(&#39;cat&#39;)?
+
+- 1
+
+How does bacon.append(99) change the look of the list value in bacon?
+
+- [3.14, 'cat', 11, 'cat', True, 99]
+
+How does bacon.remove(&#39;cat&#39;) change the look of the list in bacon?
+
+- [3.14, 11, 'cat', True, 99]
+
+What are the list concatenation and list replication operators?
+
+- '+', '*'
+
+What is difference between the list methods append() and insert()?
+
+- append() adds an item to the end of a list, whereas . insert() inserts and item in a specified position in the list.
+
+What are the two methods for removing items from a list?
+
+- The methods are remove(), pop() and clear().
+
+Describe how list values and string values are identical.
+
+- The values that make up a list are called its elements. Lists are similar to strings, which are ordered collections of characters, except that the elements of a list can have any type and for any one list, the items can be of different types.
+
+What&#39;s the difference between tuples and lists?
+
+- tuples are immutable as opposed to lists which are mutable
+
+How do you type a tuple value that only contains the integer 42?
+
+- (42)
+
+How do you get a list value&#39;s tuple form? How do you get a tuple value&#39;s list form?
+
+- Using the tuple() built-in function
+
+Variables that &quot;contain&quot; list values are not necessarily lists themselves. Instead, what do they
+contain?
+
+How do you distinguish between copy.copy() and copy.deepcopy()?
+
+- copy() create reference to original object. If you change copied object - you change the original object. . deepcopy() creates new object and does real copying of original object to new one. 
